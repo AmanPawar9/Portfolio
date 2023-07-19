@@ -8,18 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Hello Everyone, I am <span className="purple">Aman Pawar </span>
+            from <span className="purple"> New Delhi, India.</span>
+            <br/>
+            <br /> I have compleated my bachelors from <span 
+            className="purple">Delhi Technological University (formally Delhi College of Engineering)</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I am presently a Grad student at <span className="purple">Indian Institute of Science, (IISc) Bengaluru.</span>
+            <br />
+            <br />
+            Additionally, I have experience as a researcher at <span className="purple">Indian Institute of Technology,
+            (IIT) Delhi</span> as <span className="purple">Sr. Project Assistant</span>.
+            <br />
+            <br />
+            Apart from the above, I am into cooking!
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -29,12 +34,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Aman Pawar</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
