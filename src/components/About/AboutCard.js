@@ -8,31 +8,45 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello Everyone, I am <span className="purple">Aman Pawar</span>
+            Hello Everyone, I am <span className="purple"> Aman Pawar </span>
             from <span className="purple">New Delhi, India</span>.
             <br/>
             <br />
-            I completed my Bachelor's degree in <span className="purple">Bioengineering and Biotechnology</span> from 
-            <span className="purple"> Delhi Technological University (DTU)</span> 
-            and am currently pursuing my Master's at the <span className="purple">Indian Institute of Science (IISc), Bengaluru</span>.
+            I completed my <span className="purple"> B.Tech </span> from 
+            <span className="purple"> Delhi Technological University (DTU)</span>, 
+            where I developed a strong foundation's in engineering principles.
             <br />
             <br />
-            I have research experience as a <span className="purple">Senior Project Assistant</span> at the 
-            <span className="purple"> Indian Institute of Technology (IIT) Delhi</span>, where I worked on cutting-edge projects 
-            in machine learning and computational biology.
+            Currently, I am pursuing my <span className="purple"> M.Tech in Bioengineering</span> at the 
+            <span className="purple"> Indian Institute of Science (IISc), Bengaluru</span>, focusing on the intersection of 
+            artificial intelligence and biological systems.
             <br />
             <br />
-            My research focuses on developing novel methods for <span className="purple">causal discovery in complex systems</span>, 
-            including spatio-temporal networks, gene regulatory networks, and clinical time-series data. I am particularly 
-            interested in bridging theoretical advances in causality with practical applications in biology and robotics.
+            I have extensive research experience as a <span className="purple">Senior Project Assistant</span> at 
+            <span className="purple"> IIT Delhi</span>, where I worked on advanced machine learning projects and contributed to 
+            cutting-edge research in computational biology and causal inference.
             <br />
             <br />
-            I also work on <span className="purple">robotics projects</span> involving sim-to-real transfer, multi-agent path planning, 
-            and bio-hybrid robotic systems. My interdisciplinary background allows me to tackle challenges at the intersection 
-            of AI, biology, and robotics.
+            My research expertise lies in <span className="purple">causal discovery methodologies</span>, particularly for 
+            complex systems including <span className="purple">spatio-temporal networks</span>, <span className="purple">gene regulatory networks</span>, 
+            and <span className="purple">clinical time-series analysis</span>. I specialize in developing novel algorithms that combine 
+            <span className="purple">Graph Neural Networks</span>, <span className="purple">Neural ODEs</span>, and 
+            <span className="purple">signature-based methods</span> for robust causal inference.
             <br />
             <br />
-            Apart from research, I enjoy cooking and exploring new technologies that can make a positive impact on society!
+            Beyond theoretical research, I have significant experience in <span className="purple">robotics and AI applications</span>, 
+            including <span className="purple">sim-to-real transfer learning</span>, <span className="purple">multi-agent systems</span>, 
+            <span className="purple">human-robot collaboration</span>, and <span className="purple">bio-hybrid robotics</span>. 
+            My interdisciplinary approach bridges machine learning theory with practical implementations in biology and robotics.
+            <br />
+            <br />
+            I am proficient in <span className="purple">Python, PyTorch, TensorFlow, JAX</span>, and various specialized libraries 
+            for graph neural networks and scientific computing. My goal is to develop AI systems that can understand and model 
+            complex biological and physical phenomena to address real-world challenges.
+            <br />
+            <br />
+            Apart from research, I enjoy cooking, exploring emerging technologies, and contributing to open-source projects 
+            that can make a positive societal impact!
           </p>
           {/* <ul>
             <li className="about-activity">
