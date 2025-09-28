@@ -19,37 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am presently a grad student at <span className="purple">Indian Institute of Science, (IISc) Bengaluru </span>
-               presently working in the intersection of Artificial Intelligence and Computational Biology
+              I am a graduate student at the <span className="purple">Indian Institute of Science (IISc), Bengaluru</span>,
+              working at the intersection of <span className="purple">Artificial Intelligence and Computational Biology</span>.
               <br />
-              <br />I am fluent in Machine Learning and Deep Learning with
+              <br />
+              My research focuses on <span className="purple">Causality, Dynamical Systems,</span> and 
+              <span className="purple"> Graph Neural Networks</span>, with applications in biological and robotic systems.
+              <br />
+              <br />I am proficient in machine learning and deep learning frameworks including
               <i>
-                <b className="purple"> Tensorflow, Pytorch and Jax </b>.
+                <b className="purple"> TensorFlow, PyTorch, and JAX</b>
               </i>
+              , with extensive experience in both theoretical research and practical implementations.
               <br />
               <br />
-              My field of Interest's are into &nbsp;
+              My research interests span &nbsp;
               <i>
-                <b className="purple">Graph Neural Networks (GNN's) </b> and
-                also in areas related to{" "}
+                <b className="purple">Causal Discovery in Spatio-Temporal Systems</b>, 
+                <b className="purple"> Neural ODEs for Gene Regulatory Networks</b>, and{" "}
                 <b className="purple">
-                Physics-informed DL and RL.
+                  Physics-Informed Deep Learning and Reinforcement Learning
                 </b>
               </i>
               <br />
               <br />
-              {/* Whenever possible, I also apply this for developing deployable products with 
-               <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Pytorch, Pytorch-Geometric Tensorflow
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+              I also have significant experience in <span className="purple">robotics</span>, including 
+              <b className="purple"> sim-to-real transfer</b>, <b className="purple">multi-agent systems</b>, and 
+              <b className="purple"> bio-hybrid robotics</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -15,20 +15,25 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Research & Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some of my recent research projects in causality, dynamical systems, and robotics.
         </p>
+        
+        {/* Research Projects Section */}
+        <h2 className="project-subheading" style={{ color: "#c770f0", marginTop: "40px", marginBottom: "20px" }}>
+          <strong>Research Projects: Causality & Dynamical Systems</strong>
+        </h2>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Graph-Based Synthesis of Instrumental Variables"
+              description="Developed a novel Graph Attention Network (GAT) to learn synthetic instrumental variable embeddings for confounded treatment effect estimation. Created an innovative loss function to explicitly enforce instrument validity conditions (relevance and exogeneity), enabling unbiased treatment effect estimates."
+              ghLink="https://github.com/AmanPawar9/synthetic-instrumental-variables"
             />
           </Col>
 
@@ -36,10 +41,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Causal Discovery in Spatio-Temporal Systems"
+              description="Represented complex spatio-temporal systems as dynamic graphs using Spatio-Temporal GNN (ST-GNN) to learn node representations capturing local history and neighbor influence. Developed a constraint-based causal discovery algorithm operating in the learned ST-GNN embedding space."
+              ghLink="https://github.com/AmanPawar9/causal-spatiotemporal-gnn"
             />
           </Col>
 
@@ -47,10 +51,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Causal Gene Regulatory Networks with Neural ODEs"
+              description="Implemented Neural Ordinary Differential Equations to model continuous-time gene expression evolution with biologically-plausible sparsity constraints. Interpreted the learned sparse Jacobian as a causal gene regulatory network, connecting ODEs with causal discovery in single-cell genomics."
+              ghLink="https://github.com/AmanPawar9/causal-neural-ode-grn"
             />
           </Col>
 
@@ -58,21 +61,26 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Graph-Informed Signature Kernels for Clinical Data"
+              description="Extended the Signature Kernel Conditional Independence (SKCI) test by incorporating biomedical knowledge graphs using GNN-based embeddings. Achieved more accurate and data-efficient causal discovery from complex, multi-variate clinical time-series data (MIMIC-III)."
+              ghLink="https://github.com/AmanPawar9/graph-informed-skci"
             />
           </Col>
+        </Row>
 
+        {/* Robotics Projects Section */}
+        <h2 className="project-subheading" style={{ color: "#c770f0", marginTop: "40px", marginBottom: "20px" }}>
+          <strong>Robotics & AI Projects</strong>
+        </h2>
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Sim-to-Real Transfer for Robotic Manipulation"
+              description="Developed a robust RL policy in NVIDIA Isaac Gym for contact-rich peg-in-hole tasks with massive parallelism. Engineered comprehensive domain randomization pipeline for physical parameters and achieved 85% success rate with sub-millimeter precision on physical UR5e robot arm."
+              ghLink="https://github.com/AmanPawar9/sim-to-real-manipulation"
             />
           </Col>
 
@@ -80,11 +88,49 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Decentralized Multi-Agent Path Planning"
+              description="Designed decentralized navigation policy for autonomous ground vehicles using Graph Attention Networks (GATs) for cooperative collision avoidance. Demonstrated scalability to 100+ agents with 15% performance improvement over classical ORCA methods in dense traffic scenarios."
+              ghLink="https://github.com/AmanPawar9/multi-agent-gnn"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Predictive Human-Robot Collaboration"
+              description="Developed Spatio-Temporal Graph Neural Networks (ST-GNNs) to forecast human motion trajectories in shared workspaces. Integrated with real-time motion planner on UR5e robot, enabling proactive path adaptation with 99.5% collision avoidance reliability."
+              ghLink="https://github.com/AmanPawar9/safe-hri-gnn"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Real-time 3D Scene Reconstruction"
+              description="Built high-fidelity perception pipeline using Intel RealSense RGB-D camera for dense point cloud generation. Trained PointNet++ model for instance segmentation and 6-DoF pose estimation, achieving 90%+ success rate in cluttered bin-picking tasks."
+              ghLink="https://github.com/AmanPawar9/3D-perception-grasping"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Computational Co-design of Soft Robotic Gripper"
+              description="Developed differentiable physics pipeline in DiffTaichi to co-optimize material properties and actuator morphology of pneumatic soft grippers. Fabricated optimized design using multi-material 3D printing and silicone casting for delicate object manipulation."
+              ghLink="https://github.com/AmanPawar9/soft-gripper-design"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Neural Bio-actuator Control System"
+              description="Cultured myocyte cells on PDMS substrate to create bio-actuators, leveraging bioengineering knowledge for bio-hybrid systems. Designed closed-loop optical stimulation system achieving directed locomotion in fluidic environments with novel bio-robotic control paradigm."
+              ghLink="https://github.com/AmanPawar9/bio-actuator-control"
             />
           </Col>
         </Row>

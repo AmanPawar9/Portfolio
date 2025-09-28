@@ -1,0 +1,67 @@
+
+%-----------NEW RESEARCH PROJECTS SECTION-----------------
+\section{Research Projects: Causality \& Dynamical Systems}
+\resumeSubHeadingListStart
+  \resumeProject{Graph-Based Synthesis of Instrumental Variables for Confounded Treatment Effect Estimation}{Course Project}{\href{https://github.com/AmanPawar9/synthetic-instrumental-variables}{GitHub}}{Ongoing}
+    \resumeItemListStart
+        \item{Modeled the system as a graph of treatments, outcomes, and weak instruments, using a Graph Attention Network (GAT) to learn a synthetic instrumental variable embedding.}
+        \item{Developed a novel loss function to explicitly enforce instrument validity conditions (relevance and exogeneity), training the model end-to-end to produce unbiased treatment effect estimates.}
+    \resumeItemListEnd
+  \resumeProject{Causal Discovery in Spatio-Temporal Systems via Self-Supervised Graph Neural Networks}{Course Project}{\href{https://github.com/AmanPawar9/causal-spatiotemporal-gnn}{GitHub}}{Ongoing}
+    \resumeItemListStart
+        \item{Represented complex spatio-temporal systems (e.g., climate patterns) as a dynamic graph, employing a Spatio-Temporal GNN (ST-GNN) to learn node representations that capture both local history and neighbor influence.}
+        \item{Formulated a novel constraint-based causal discovery algorithm that operates in the learned ST-GNN embedding space, extending time-series methods to the more complex spatio-temporal domain.}
+    \resumeItemListEnd
+  \resumeProject{Uncovering Causal Gene Regulatory Networks with Biologically-Constrained Neural ODEs}{Course Project}{\href{https://github.com/AmanPawar9/causal-neural-ode-grn}{GitHub}}{Ongoing}
+    \resumeItemListStart
+      \item {Implemented a Neural Ordinary Differential Equation (Neural ODE) to model the continuous-time evolution of gene expression, enforcing biologically-plausible sparsity on the learned dynamics.}
+      \item {Interpreted the learned sparse Jacobian of the system as a causal gene regulatory network, directly connecting the lab's work on ODEs with causal discovery in single-cell genomics.}
+    \resumeItemListEnd
+  \resumeProject{Graph-Informed Signature Kernels for Causal Discovery in Multivariate Clinical Time-Series}{Course Project}{\href{https://github.com/AmanPawar9/graph-informed-skci}{GitHub}}{Ongoing}
+    \resumeItemListStart
+      \item{Extended the state-of-the-art Signature Kernel Conditional Independence (SKCI) test by incorporating prior knowledge from biomedical knowledge graphs using GNN-based embeddings.}
+      \item{Developed a novel, graph-informed signature kernel to achieve more accurate and data-efficient causal discovery from complex, multi-variate time-series data (e.g., MIMIC-III).}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------ROBOTICS PROJECTS-----------------
+\section{Other Projects:}
+\resumeSubHeadingListStart
+  \resumeProject{Sim-to-Real Transfer for Contact-Rich Robotic Manipulation}{Course Project}{\href{https://github.com/AmanPawar9/sim-to-real-manipulation}{GitHub}}{Ongoing}
+    \resumeItemListStart
+      \item {Developed a robust RL policy in \textbf{NVIDIA Isaac Gym} for a challenging peg-in-hole task, leveraging massive parallelism for rapid training. Deployed policy zero-shot onto a physical \textbf{UR5e robot arm}.}
+      \item {Engineered a \textbf{domain randomization} pipeline for physical parameters (friction, mass) and visual properties, achieving an 85\% success rate and sub-millimeter precision on the physical hardware.}
+    \resumeItemListEnd
+  \resumeProject{Decentralized Multi-Agent Path Planning with GNNs}{Course Project}{\href{https://github.com/AmanPawar9/multi-agent-gnn}{GitHub}}{Ongoing}
+    \resumeItemListStart
+      \item{Designed a decentralized navigation policy for a fleet of autonomous ground vehicles using Graph Attention Networks (GATs) to learn cooperative collision avoidance behaviors in dynamic environments.}
+      \item{Demonstrated scalability to over 100 agents in simulation, outperforming classical ORCA methods by 15\% in dense traffic scenarios, with applications to autonomous logistics and transportation networks.}
+    \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+% \resumeSubHeadingListStart
+    \resumeProject{Predictive Human-Robot Collaboration using Spatio-Temporal GNNs}{Course Project}{\href{https://github.com/AmanPawar9/safe-hri-gnn}{GitHub}}{Ongoing}
+    \resumeItemListStart
+        \item{Developed a predictive model using Spatio-Temporal Graph Neural Networks (ST-GNNs) to forecast human motion trajectories in a shared workspace, ensuring safe and efficient robot collaboration.}
+        \item{Integrated the prediction module with a real-time motion planner on a UR5e, enabling the robot to proactively adapt its path and avoid collisions with 99.5\% reliability in tested scenarios.}
+    \resumeItemListEnd
+  \resumeProject{Real-time 3D Scene Reconstruction for Robotic Grasping}{Course Project}{\href{https://github.com/AmanPawar9/3D-perception-grasping}{GitHub}}{Ongoing}
+    \resumeItemListStart
+      \item {Built a high-fidelity perception pipeline using an \textbf{Intel RealSense RGB-D camera} to generate dense point clouds. Utilized GPU-accelerated \textbf{Point Cloud Library (PCL)} for filtering and segmentation.}
+      \item {Trained a \textbf{PointNet++} model for instance segmentation and 6-DoF pose estimation of novel objects, generating successful grasp poses for over 90\% of objects in a cluttered bin-picking task.}
+    \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+% \resumeSubHeadingListStart
+    \resumeProject{Computational Co-design \& Fabrication of a Soft Robotic Gripper}{Course Project}{\href{https://github.com/AmanPawar9/soft-gripper-design}{GitHub}}{Ongoing}
+      \resumeItemListStart
+        \item {Developed a \textbf{differentiable physics} pipeline in \textbf{DiffTaichi} to co-optimize the material properties and actuator morphology of a pneumatic soft gripper for a delicate grasping task (e.g., raspberry).}
+        \item{Fabricated the computationally optimized design using multi-material \textbf{3D printing (SLA)} for molds and subsequent \textbf{silicone casting}, demonstrating a full simulation-to-fabrication workflow.}
+      \resumeItemListEnd
+    \resumeProject{Control of Neural Bio-actuators for Bio-hybrid Robotics}{M.Tech Project}{\href{https://github.com/AmanPawar9/bio-actuator-control}{GitHub}}{Ongoing}
+    \resumeItemListStart
+        \item{Cultured myocyte (muscle) cells on a PDMS substrate to create a bio-actuator, leveraging knowledge from Bioengineering to build a functional bio-hybrid system.}
+        \item{Designed a closed-loop optical stimulation system to control the contraction of the bio-actuator, achieving directed locomotion in a fluidic environment and demonstrating a novel bio-robotic control paradigm.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd

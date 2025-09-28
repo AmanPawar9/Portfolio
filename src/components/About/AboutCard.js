@@ -8,21 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello Everyone, I am <span className="purple">Aman Pawar </span>
-            from <span className="purple"> New Delhi, India.</span>
+            Hello Everyone, I am <span className="purple">Aman Pawar</span>
+            from <span className="purple">New Delhi, India</span>.
             <br/>
-            <br /> I have compleated my bachelors from <span 
-            className="purple">Delhi Technological University (formally Delhi College of Engineering)</span>.
+            <br />
+            I completed my Bachelor's degree in <span className="purple">Bioengineering and Biotechnology</span> from 
+            <span className="purple"> Delhi Technological University (DTU)</span> 
+            and am currently pursuing my Master's at the <span className="purple">Indian Institute of Science (IISc), Bengaluru</span>.
             <br />
             <br />
-            I am presently a Grad student at <span className="purple">Indian Institute of Science, (IISc) Bengaluru.</span>
+            I have research experience as a <span className="purple">Senior Project Assistant</span> at the 
+            <span className="purple"> Indian Institute of Technology (IIT) Delhi</span>, where I worked on cutting-edge projects 
+            in machine learning and computational biology.
             <br />
             <br />
-            Additionally, I have experience as a researcher at <span className="purple">Indian Institute of Technology,
-            (IIT) Delhi</span> as <span className="purple">Sr. Project Assistant</span>.
+            My research focuses on developing novel methods for <span className="purple">causal discovery in complex systems</span>, 
+            including spatio-temporal networks, gene regulatory networks, and clinical time-series data. I am particularly 
+            interested in bridging theoretical advances in causality with practical applications in biology and robotics.
             <br />
             <br />
-            Apart from the above, I am into cooking!
+            I also work on <span className="purple">robotics projects</span> involving sim-to-real transfer, multi-agent path planning, 
+            and bio-hybrid robotic systems. My interdisciplinary background allows me to tackle challenges at the intersection 
+            of AI, biology, and robotics.
+            <br />
+            <br />
+            Apart from research, I enjoy cooking and exploring new technologies that can make a positive impact on society!
           </p>
           {/* <ul>
             <li className="about-activity">
